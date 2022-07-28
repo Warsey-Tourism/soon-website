@@ -22,6 +22,7 @@ body {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
+  animation: fadeInAnimation ease 3s
 }
 html #background,
 body #background {
@@ -147,6 +148,15 @@ body .main #content section p.timedescription {
 }
 
 /* Warsey CSS */
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
 
 .warsey-logo {
   width: 60%;
