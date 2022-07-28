@@ -182,6 +182,10 @@ body .main #content p {
   text-transform: uppercase;
 }
 
+video {
+  display: block; 
+}
+
 .warseybranches {
   width: 20%;
   margin-top: 30px;
